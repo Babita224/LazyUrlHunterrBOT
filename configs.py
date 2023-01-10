@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "MdiskSearchBot")
-    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    API_ID = int(os.environ.get("API_ID", "27405037"))
+    API_HASH = os.environ.get("API_HASH", "2ef36ce5274babab4d468d010323ff7e")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5756997712:AAHhaYXl6XdAi0WQ2hvz_5mWogWXEluP11M ")
+    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "SR Mdisk Search Bot")
+    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "1BVtsOMcBu1hoUSjAeNbzymNcrJXPY2tYcmpYIfpS0APeW0E88WZJ1TXaBrBl1nuWokWR-4ZPNWeqa2sRaJuZX4D0FXXpYgHOPeE0f4yfTCngYJfoQxRWbnxOyCoZFmm97ZYCMarp00nBNu4Nit3LA9SwvTP6s4L1a_boAgnubb5EJZCVLB9IMSdBGl1wOUgAKZzABqG478lRJTzoxjJC6Om12aDiwIzUIQ6u01j_4FxYutfTKqBoU8v026ybEsPKrasjtQ9bn6I70d1CP_5yp6T_lBDbWU8gApRN5EFLlZgE0FvBM9h_aSdbLAkkytR6T1Oh-AtxDAtri2Z5E198PrKbUpjytac=")
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001439016196"))
+    BOT_USERNAME = os.environ.get("BOT_USERNAME" "sr_mdisk_bot")
+    BOT_OWNER = int(os.environ.get("BOT_OWNER" "806256138"))
+    DATABASE_URL = os.environ.get("DATABASE_URL" "mongodb+srv://Mdisk:mdisk@cluster0.bzbtrta.mongodb.net/?retryWrites=true&w=majority")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001648645357")
     ABOUT_BOT_TEXT = """<b> <a href='https://t.me/LazyUrlHunterrBOT'>Lazy Url Hunterr</a> is an open source project.
 
     Devs: 
